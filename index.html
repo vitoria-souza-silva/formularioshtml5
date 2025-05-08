@@ -14,8 +14,11 @@
     </header>
     <main>
 <form>
-    <label for="usuario">usuario</label>
-    <input type="text" id="usuario" name="usuario">
+    <label class="form-label" for="usuario">usuario</label>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="addon-usuario">@</span>
+        <input type="text" class="form-control" id="usuario" name="usuario" aria-label="usuario" aria-describedby="addon usuario">
+    </div>
     <label for="senha">senha</label>
     <input type="password" id="senha" name="senha">
     <a href="#">esqueci a senha</a>

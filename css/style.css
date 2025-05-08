@@ -47,6 +47,12 @@ form{
     align-items: center;
 }
 
+input{
+    width:100%;
+    margin-bottom: 0.3rem;
+    position: relative;
+}
+
 footer{
     bottom: 0;
     height: 20px;

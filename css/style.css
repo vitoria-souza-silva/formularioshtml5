@@ -38,6 +38,7 @@ main{
     border: 2px solid var(--text-color);
     border-radius: 20px;
     padding: 2rem;
+    width: 60%;
 }
 
 form{

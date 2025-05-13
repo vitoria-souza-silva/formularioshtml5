@@ -49,6 +49,16 @@ form{
     width:49%;
 }
 
+form a{
+    text-decoration: none;
+    padding: 0.5rem;
+color: var(--text-color)
+}
+
+form a:hover{
+    border-bottom: 1px solid var(--text-color);
+}
+
 input{
     width:100%;
     position: relative;

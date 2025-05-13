@@ -64,6 +64,12 @@ input{
     position: relative;
 }
 
+input[type="submit"], input[type="reset"]{
+    margin:0.5rem;
+}
+
+
+
 footer{
     bottom: 0;
     height: 20px;
